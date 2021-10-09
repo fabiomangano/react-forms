@@ -78,7 +78,7 @@ export default function ControlledForm() {
         <input
           name="legge"
           type="checkbox"
-          checked={state.legge}
+          checked={state.disabile}
           onChange={handleInputChange}
         />
         <label htmlFor="legge"> Lg. 09/93</label>
