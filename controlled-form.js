@@ -76,7 +76,7 @@ export default function ControlledForm() {
       <br />
       <div>
         <input
-          name="legge"
+          name="disabile"
           type="checkbox"
           checked={state.disabile}
           onChange={handleInputChange}
